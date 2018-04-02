@@ -1,0 +1,248 @@
+"src/Compiler.ml" 1 0 4 "src/Compiler.ml" 1 0 8
+type(
+  unit -> unit
+)
+ident(
+  def main "src/Compiler.ml" 7 210 210 "src/Compiler.ml" 1 0 -1
+)
+"src/Compiler.ml" 1 0 9 "src/Compiler.ml" 1 0 11
+type(
+  unit
+)
+"src/Compiler.ml" 2 14 20 "src/Compiler.ml" 2 14 28
+type(
+  string
+)
+ident(
+  def filename "src/Compiler.ml" 3 47 49 "src/Compiler.ml" 5 156 208
+)
+"src/Compiler.ml" 2 14 31 "src/Compiler.ml" 2 14 39
+type(
+  string array
+)
+ident(
+  int_ref Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+)
+"src/Compiler.ml" 2 14 41 "src/Compiler.ml" 2 14 42
+type(
+  int
+)
+"src/Compiler.ml" 2 14 31 "src/Compiler.ml" 2 14 43
+type(
+  string
+)
+"src/Compiler.ml" 3 47 53 "src/Compiler.ml" 3 47 59
+type(
+  Lexer.token list
+)
+ident(
+  def tokens "src/Compiler.ml" 4 116 118 "src/Compiler.ml" 5 156 208
+)
+"src/Compiler.ml" 3 47 64 "src/Compiler.ml" 3 47 73
+type(
+  char Stream.t -> Lexer.token list
+)
+ident(
+  int_ref Lexer.lex "src/Lexer.ml" 64 1655 1659 "src/Lexer.ml" 64 1655 1662
+)
+"src/Compiler.ml" 3 47 75 "src/Compiler.ml" 3 47 92
+type(
+  in_channel -> char Stream.t
+)
+ident(
+  int_ref Stream.of_channel "stream.mli" 55 2315 2315 "stream.mli" 55 2315 2352
+)
+"src/Compiler.ml" 3 47 94 "src/Compiler.ml" 3 47 101
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Pervasives.open_in "pervasives.mli" 924 35020 35020 "pervasives.mli" 924 35020 35054
+)
+"src/Compiler.ml" 3 47 102 "src/Compiler.ml" 3 47 110
+type(
+  string
+)
+ident(
+  int_ref filename "src/Compiler.ml" 2 14 20 "src/Compiler.ml" 2 14 28
+)
+"src/Compiler.ml" 3 47 93 "src/Compiler.ml" 3 47 111
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/Compiler.ml" 3 47 74 "src/Compiler.ml" 3 47 112
+call(
+  stack
+)
+type(
+  char Stream.t
+)
+"src/Compiler.ml" 3 47 64 "src/Compiler.ml" 3 47 112
+call(
+  stack
+)
+type(
+  Lexer.token list
+)
+"src/Compiler.ml" 4 116 123 "src/Compiler.ml" 4 116 124
+type(
+  Lang.exp
+)
+ident(
+  def e "src/Compiler.ml" 5 156 158 "src/Compiler.ml" 5 156 208
+)
+"src/Compiler.ml" 4 116 126 "src/Compiler.ml" 4 116 127
+type(
+  Lexer.token list
+)
+"src/Compiler.ml" 4 116 122 "src/Compiler.ml" 4 116 128
+type(
+  Lang.exp * Lexer.token list
+)
+"src/Compiler.ml" 4 116 133 "src/Compiler.ml" 4 116 145
+type(
+  Lexer.token list -> Lang.exp * Lexer.token list
+)
+ident(
+  int_ref Parser.parse "src/Parser.ml" 18 472 480 "src/Parser.ml" 18 472 485
+)
+"src/Compiler.ml" 4 116 146 "src/Compiler.ml" 4 116 152
+type(
+  Lexer.token list
+)
+ident(
+  int_ref tokens "src/Compiler.ml" 3 47 53 "src/Compiler.ml" 3 47 59
+)
+"src/Compiler.ml" 4 116 133 "src/Compiler.ml" 4 116 152
+call(
+  stack
+)
+type(
+  Lang.exp * Lexer.token list
+)
+"src/Compiler.ml" 5 156 158 "src/Compiler.ml" 5 156 172
+type(
+  Lang.exp -> int
+)
+ident(
+  int_ref Lang.interpret "src/Lang.ml" 15 310 318 "src/Lang.ml" 15 310 327
+)
+"src/Compiler.ml" 5 156 173 "src/Compiler.ml" 5 156 174
+type(
+  Lang.exp
+)
+ident(
+  int_ref e "src/Compiler.ml" 4 116 123 "src/Compiler.ml" 4 116 124
+)
+"src/Compiler.ml" 5 156 158 "src/Compiler.ml" 5 156 174
+call(
+  stack
+)
+type(
+  int
+)
+"src/Compiler.ml" 5 156 175 "src/Compiler.ml" 5 156 177
+type(
+  int -> (int -> string) -> string
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 5 156 178 "src/Compiler.ml" 5 156 191
+type(
+  int -> string
+)
+ident(
+  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+)
+"src/Compiler.ml" 5 156 158 "src/Compiler.ml" 5 156 191
+call(
+  stack
+)
+type(
+  string
+)
+"src/Compiler.ml" 5 156 192 "src/Compiler.ml" 5 156 194
+type(
+  string -> (string -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 5 156 195 "src/Compiler.ml" 5 156 208
+type(
+  string -> unit
+)
+ident(
+  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+)
+"src/Compiler.ml" 5 156 158 "src/Compiler.ml" 5 156 208
+call(
+  tail
+)
+type(
+  unit
+)
+"src/Compiler.ml" 4 116 118 "src/Compiler.ml" 5 156 208
+type(
+  unit
+)
+"src/Compiler.ml" 3 47 49 "src/Compiler.ml" 5 156 208
+type(
+  unit
+)
+"src/Compiler.ml" 2 14 16 "src/Compiler.ml" 5 156 208
+type(
+  unit
+)
+"src/Compiler.ml" 7 210 214 "src/Compiler.ml" 7 210 215
+type(
+  unit
+)
+"src/Compiler.ml" 7 210 221 "src/Compiler.ml" 7 210 222
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+)
+"src/Compiler.ml" 7 210 222 "src/Compiler.ml" 7 210 237
+type(
+  bool ref
+)
+ident(
+  int_ref Sys.interactive "sys.mli" 88 4026 4026 "sys.mli" 88 4026 4052
+)
+"src/Compiler.ml" 7 210 221 "src/Compiler.ml" 7 210 237
+type(
+  bool
+)
+"src/Compiler.ml" 7 210 243 "src/Compiler.ml" 7 210 245
+type(
+  unit
+)
+"src/Compiler.ml" 7 210 251 "src/Compiler.ml" 7 210 255
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "src/Compiler.ml" 1 0 4 "src/Compiler.ml" 1 0 8
+)
+"src/Compiler.ml" 7 210 256 "src/Compiler.ml" 7 210 258
+type(
+  unit
+)
+"src/Compiler.ml" 7 210 251 "src/Compiler.ml" 7 210 258
+call(
+  stack
+)
+type(
+  unit
+)
+"src/Compiler.ml" 7 210 218 "src/Compiler.ml" 7 210 258
+type(
+  unit
+)

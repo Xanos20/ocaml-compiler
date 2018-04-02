@@ -1,0 +1,28 @@
+### Starting build.
+# Target: src/Compiler.ml.depends, tags: { extension:ml, file:src/Compiler.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Compiler.ml > src/Compiler.ml.depends # cached
+# Target: src/Lang.ml.depends, tags: { extension:ml, file:src/Lang.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Lang.ml > src/Lang.ml.depends # cached
+# Target: src/Lang.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Lang.cmo, file:src/Lang.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Lang.cmo src/Lang.ml # cached
+# Target: src/Lexer.ml.depends, tags: { extension:ml, file:src/Lexer.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Lexer.ml > src/Lexer.ml.depends # cached
+# Target: src/Lexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Lexer.cmo, file:src/Lexer.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Lexer.cmo src/Lexer.ml # cached
+# Target: src/Parser.ml.depends, tags: { extension:ml, file:src/Parser.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Parser.ml > src/Parser.ml.depends # cached
+# Target: src/Parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Parser.cmo, file:src/Parser.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Parser.cmo src/Parser.ml # cached
+# Target: src/Compiler.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Compiler.cmo, file:src/Compiler.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Compiler.cmo src/Compiler.ml # cached
+# Target: src/Lang.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Lang.cmx, file:src/Lang.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Lang.cmx src/Lang.ml # cached
+# Target: src/Lexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Lexer.cmx, file:src/Lexer.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Lexer.cmx src/Lexer.ml # cached
+# Target: src/Parser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Parser.cmx, file:src/Parser.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Parser.cmx src/Parser.ml # cached
+# Target: src/Compiler.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Compiler.cmx, file:src/Compiler.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Compiler.cmx src/Compiler.ml # cached
+# Target: src/Compiler.native, tags: { dont_link_with, extension:native, file:src/Compiler.native, link, native, ocaml, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -I src src/Lang.cmx src/Lexer.cmx src/Parser.cmx src/Compiler.cmx -o src/Compiler.native # cached
+# Compilation successful.

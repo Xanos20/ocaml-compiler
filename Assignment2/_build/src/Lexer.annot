@@ -1,0 +1,2679 @@
+"src/Lexer.ml" 14 145 149 "src/Lexer.ml" 14 145 164
+type(
+  token -> string
+)
+ident(
+  def string_of_token "src/Lexer.ml" 29 595 595 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 14 145 166 "src/Lexer.ml" 14 145 167
+type(
+  token
+)
+ident(
+  def t "src/Lexer.ml" 14 145 175 "src/Lexer.ml" 26 509 538
+)
+"src/Lexer.ml" 15 186 194 "src/Lexer.ml" 15 186 195
+type(
+  token
+)
+ident(
+  int_ref t "src/Lexer.ml" 14 145 166 "src/Lexer.ml" 14 145 167
+)
+"src/Lexer.ml" 16 201 210 "src/Lexer.ml" 16 201 211
+type(
+  int
+)
+ident(
+  def n "src/Lexer.ml" 16 201 226 "src/Lexer.ml" 16 201 241
+)
+"src/Lexer.ml" 16 201 205 "src/Lexer.ml" 16 201 211
+type(
+  token
+)
+"src/Lexer.ml" 16 201 226 "src/Lexer.ml" 16 201 239
+type(
+  int -> string
+)
+ident(
+  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+)
+"src/Lexer.ml" 16 201 240 "src/Lexer.ml" 16 201 241
+type(
+  int
+)
+ident(
+  int_ref n "src/Lexer.ml" 16 201 210 "src/Lexer.ml" 16 201 211
+)
+"src/Lexer.ml" 16 201 226 "src/Lexer.ml" 16 201 241
+call(
+  tail
+)
+type(
+  string
+)
+"src/Lexer.ml" 17 242 246 "src/Lexer.ml" 17 242 253
+type(
+  token
+)
+"src/Lexer.ml" 17 242 267 "src/Lexer.ml" 17 242 270
+type(
+  string
+)
+"src/Lexer.ml" 18 271 275 "src/Lexer.ml" 18 271 282
+type(
+  token
+)
+"src/Lexer.ml" 18 271 296 "src/Lexer.ml" 18 271 299
+type(
+  string
+)
+"src/Lexer.ml" 19 300 304 "src/Lexer.ml" 19 300 309
+type(
+  token
+)
+"src/Lexer.ml" 19 300 325 "src/Lexer.ml" 19 300 328
+type(
+  string
+)
+"src/Lexer.ml" 20 329 333 "src/Lexer.ml" 20 329 338
+type(
+  token
+)
+"src/Lexer.ml" 20 329 354 "src/Lexer.ml" 20 329 357
+type(
+  string
+)
+"src/Lexer.ml" 21 358 362 "src/Lexer.ml" 21 358 367
+type(
+  token
+)
+"src/Lexer.ml" 21 358 383 "src/Lexer.ml" 21 358 386
+type(
+  string
+)
+"src/Lexer.ml" 22 387 391 "src/Lexer.ml" 22 387 396
+type(
+  token
+)
+"src/Lexer.ml" 22 387 412 "src/Lexer.ml" 22 387 415
+type(
+  string
+)
+"src/Lexer.ml" 23 416 420 "src/Lexer.ml" 23 416 425
+type(
+  token
+)
+"src/Lexer.ml" 23 416 440 "src/Lexer.ml" 23 416 446
+type(
+  string
+)
+"src/Lexer.ml" 24 447 451 "src/Lexer.ml" 24 447 457
+type(
+  token
+)
+"src/Lexer.ml" 24 447 471 "src/Lexer.ml" 24 447 478
+type(
+  string
+)
+"src/Lexer.ml" 25 479 483 "src/Lexer.ml" 25 479 500
+type(
+  token
+)
+"src/Lexer.ml" 25 479 504 "src/Lexer.ml" 25 479 508
+type(
+  string
+)
+"src/Lexer.ml" 26 509 513 "src/Lexer.ml" 26 509 516
+type(
+  token
+)
+"src/Lexer.ml" 26 509 534 "src/Lexer.ml" 26 509 538
+type(
+  string
+)
+"src/Lexer.ml" 15 186 188 "src/Lexer.ml" 26 509 538
+type(
+  string
+)
+type(
+  string
+)
+"src/Lexer.ml" 29 595 599 "src/Lexer.ml" 29 595 619
+type(
+  token list -> string
+)
+ident(
+  def string_of_token_list "src/Lexer.ml" 34 820 820 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 29 595 621 "src/Lexer.ml" 29 595 625
+type(
+  token list
+)
+ident(
+  def toks "src/Lexer.ml" 29 595 638 "src/Lexer.ml" 30 649 700
+)
+"src/Lexer.ml" 30 649 651 "src/Lexer.ml" 30 649 664
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref String.concat "string.mli" 123 5313 5313 "string.mli" 123 5313 5357
+)
+"src/Lexer.ml" 30 649 665 "src/Lexer.ml" 30 649 668
+type(
+  string
+)
+"src/Lexer.ml" 30 649 670 "src/Lexer.ml" 30 649 678
+type(
+  (token -> string) -> token list -> string list
+)
+ident(
+  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"src/Lexer.ml" 30 649 679 "src/Lexer.ml" 30 649 694
+type(
+  token -> string
+)
+ident(
+  int_ref string_of_token "src/Lexer.ml" 14 145 149 "src/Lexer.ml" 14 145 164
+)
+"src/Lexer.ml" 30 649 695 "src/Lexer.ml" 30 649 699
+type(
+  token list
+)
+ident(
+  int_ref toks "src/Lexer.ml" 29 595 621 "src/Lexer.ml" 29 595 625
+)
+"src/Lexer.ml" 30 649 669 "src/Lexer.ml" 30 649 700
+call(
+  stack
+)
+type(
+  string list
+)
+"src/Lexer.ml" 30 649 651 "src/Lexer.ml" 30 649 700
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"src/Lexer.ml" 34 820 824 "src/Lexer.ml" 34 820 828
+type(
+  char Stream.t -> char
+)
+ident(
+  def peek "src/Lexer.ml" 40 1046 1046 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 34 820 830 "src/Lexer.ml" 34 820 833
+type(
+  char Stream.t
+)
+ident(
+  def src "src/Lexer.ml" 34 820 849 "src/Lexer.ml" 37 905 965
+)
+"src/Lexer.ml" 35 858 866 "src/Lexer.ml" 35 858 877
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+"src/Lexer.ml" 35 858 878 "src/Lexer.ml" 35 858 881
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 34 820 830 "src/Lexer.ml" 34 820 833
+)
+"src/Lexer.ml" 35 858 866 "src/Lexer.ml" 35 858 881
+call(
+  stack
+)
+type(
+  char option
+)
+"src/Lexer.ml" 36 887 896 "src/Lexer.ml" 36 887 898
+type(
+  char
+)
+ident(
+  def ch "src/Lexer.ml" 36 887 902 "src/Lexer.ml" 36 887 904
+)
+"src/Lexer.ml" 36 887 891 "src/Lexer.ml" 36 887 898
+type(
+  char option
+)
+"src/Lexer.ml" 36 887 902 "src/Lexer.ml" 36 887 904
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 36 887 896 "src/Lexer.ml" 36 887 898
+)
+"src/Lexer.ml" 37 905 909 "src/Lexer.ml" 37 905 913
+type(
+  char option
+)
+"src/Lexer.ml" 37 905 920 "src/Lexer.ml" 37 905 928
+type(
+  string -> char
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 37 905 929 "src/Lexer.ml" 37 905 965
+type(
+  string
+)
+"src/Lexer.ml" 37 905 920 "src/Lexer.ml" 37 905 965
+call(
+  tail
+)
+type(
+  char
+)
+"src/Lexer.ml" 35 858 860 "src/Lexer.ml" 37 905 965
+type(
+  char
+)
+type(
+  char
+)
+"src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+type(
+  char Stream.t -> char
+)
+ident(
+  def advance "src/Lexer.ml" 43 1156 1156 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 40 1046 1084 "src/Lexer.ml" 40 1046 1095
+type(
+  char Stream.t -> char
+)
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref Stream.next "stream.mli" 68 2648 2648 "stream.mli" 68 2648 2669
+)
+"src/Lexer.ml" 43 1156 1160 "src/Lexer.ml" 43 1156 1168
+type(
+  char Stream.t -> bool
+)
+ident(
+  def is_empty "src/Lexer.ml" 49 1267 1267 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 43 1156 1170 "src/Lexer.ml" 43 1156 1173
+type(
+  char Stream.t
+)
+ident(
+  def src "src/Lexer.ml" 43 1156 1189 "src/Lexer.ml" 47 1238 1265
+)
+"src/Lexer.ml" 45 1204 1208 "src/Lexer.ml" 45 1204 1220
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stream.empty "stream.mli" 72 2799 2799 "stream.mli" 72 2799 2823
+)
+"src/Lexer.ml" 45 1204 1221 "src/Lexer.ml" 45 1204 1224
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 43 1156 1170 "src/Lexer.ml" 43 1156 1173
+)
+"src/Lexer.ml" 45 1204 1208 "src/Lexer.ml" 45 1204 1224
+call(
+  stack
+)
+type(
+  unit
+)
+"src/Lexer.ml" 45 1204 1226 "src/Lexer.ml" 45 1204 1230
+type(
+  bool
+)
+"src/Lexer.ml" 45 1204 1208 "src/Lexer.ml" 45 1204 1230
+type(
+  bool
+)
+"src/Lexer.ml" 47 1238 1242 "src/Lexer.ml" 47 1238 1256
+type(
+  exn
+)
+"src/Lexer.ml" 47 1238 1260 "src/Lexer.ml" 47 1238 1265
+type(
+  bool
+)
+"src/Lexer.ml" 44 1198 1200 "src/Lexer.ml" 47 1238 1265
+type(
+  bool
+)
+type(
+  bool
+)
+"src/Lexer.ml" 49 1267 1271 "src/Lexer.ml" 49 1267 1284
+type(
+  char -> bool
+)
+ident(
+  def is_whitespace "src/Lexer.ml" 53 1371 1371 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+type(
+  char
+)
+ident(
+  def ch "src/Lexer.ml" 49 1267 1295 "src/Lexer.ml" 50 1304 1368
+)
+"src/Lexer.ml" 50 1304 1306 "src/Lexer.ml" 50 1304 1308
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+)
+"src/Lexer.ml" 50 1304 1309 "src/Lexer.ml" 50 1304 1310
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 50 1304 1311 "src/Lexer.ml" 50 1304 1314
+type(
+  char
+)
+"src/Lexer.ml" 50 1304 1306 "src/Lexer.ml" 50 1304 1314
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1315 "src/Lexer.ml" 50 1304 1317
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( || ) "pervasives.mli" 148 6350 6350 "pervasives.mli" 148 6350 6400
+)
+"src/Lexer.ml" 50 1304 1318 "src/Lexer.ml" 50 1304 1320
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+)
+"src/Lexer.ml" 50 1304 1321 "src/Lexer.ml" 50 1304 1322
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 50 1304 1323 "src/Lexer.ml" 50 1304 1329
+type(
+  char
+)
+"src/Lexer.ml" 50 1304 1318 "src/Lexer.ml" 50 1304 1329
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1330 "src/Lexer.ml" 50 1304 1332
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( || ) "pervasives.mli" 148 6350 6350 "pervasives.mli" 148 6350 6400
+)
+"src/Lexer.ml" 50 1304 1333 "src/Lexer.ml" 50 1304 1335
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+)
+"src/Lexer.ml" 50 1304 1336 "src/Lexer.ml" 50 1304 1337
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 50 1304 1338 "src/Lexer.ml" 50 1304 1342
+type(
+  char
+)
+"src/Lexer.ml" 50 1304 1333 "src/Lexer.ml" 50 1304 1342
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1343 "src/Lexer.ml" 50 1304 1345
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( || ) "pervasives.mli" 148 6350 6350 "pervasives.mli" 148 6350 6400
+)
+"src/Lexer.ml" 50 1304 1346 "src/Lexer.ml" 50 1304 1348
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+)
+"src/Lexer.ml" 50 1304 1349 "src/Lexer.ml" 50 1304 1350
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 50 1304 1351 "src/Lexer.ml" 50 1304 1355
+type(
+  char
+)
+"src/Lexer.ml" 50 1304 1346 "src/Lexer.ml" 50 1304 1355
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1356 "src/Lexer.ml" 50 1304 1358
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( || ) "pervasives.mli" 148 6350 6350 "pervasives.mli" 148 6350 6400
+)
+"src/Lexer.ml" 50 1304 1359 "src/Lexer.ml" 50 1304 1361
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 49 1267 1286 "src/Lexer.ml" 49 1267 1288
+)
+"src/Lexer.ml" 50 1304 1362 "src/Lexer.ml" 50 1304 1363
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 50 1304 1364 "src/Lexer.ml" 50 1304 1368
+type(
+  char
+)
+"src/Lexer.ml" 50 1304 1359 "src/Lexer.ml" 50 1304 1368
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1346 "src/Lexer.ml" 50 1304 1368
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1333 "src/Lexer.ml" 50 1304 1368
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1318 "src/Lexer.ml" 50 1304 1368
+type(
+  bool
+)
+"src/Lexer.ml" 50 1304 1306 "src/Lexer.ml" 50 1304 1368
+type(
+  bool
+)
+type(
+  bool
+)
+"src/Lexer.ml" 53 1371 1375 "src/Lexer.ml" 53 1371 1383
+type(
+  char -> bool
+)
+ident(
+  def is_digit "src/Lexer.ml" 58 1463 1463 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 53 1371 1385 "src/Lexer.ml" 53 1371 1387
+type(
+  char
+)
+ident(
+  def ch "src/Lexer.ml" 53 1371 1394 "src/Lexer.ml" 55 1432 1458
+)
+"src/Lexer.ml" 54 1403 1409 "src/Lexer.ml" 54 1403 1413
+type(
+  int
+)
+ident(
+  def code "src/Lexer.ml" 55 1432 1434 "src/Lexer.ml" 55 1432 1458
+)
+"src/Lexer.ml" 54 1403 1416 "src/Lexer.ml" 54 1403 1425
+type(
+  char -> int
+)
+ident(
+  int_ref Char.code "char.mli" 18 1109 1109 "char.mli" 18 1109 1150
+)
+"src/Lexer.ml" 54 1403 1426 "src/Lexer.ml" 54 1403 1428
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 53 1371 1385 "src/Lexer.ml" 53 1371 1387
+)
+"src/Lexer.ml" 54 1403 1416 "src/Lexer.ml" 54 1403 1428
+type(
+  int
+)
+"src/Lexer.ml" 55 1432 1434 "src/Lexer.ml" 55 1432 1436
+type(
+  int
+)
+"src/Lexer.ml" 55 1432 1437 "src/Lexer.ml" 55 1432 1439
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( <= ) "pervasives.mli" 72 2999 2999 "pervasives.mli" 72 2999 3048
+)
+"src/Lexer.ml" 55 1432 1440 "src/Lexer.ml" 55 1432 1444
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 54 1403 1409 "src/Lexer.ml" 54 1403 1413
+)
+"src/Lexer.ml" 55 1432 1434 "src/Lexer.ml" 55 1432 1444
+type(
+  bool
+)
+"src/Lexer.ml" 55 1432 1445 "src/Lexer.ml" 55 1432 1447
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+)
+"src/Lexer.ml" 55 1432 1448 "src/Lexer.ml" 55 1432 1452
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 54 1403 1409 "src/Lexer.ml" 54 1403 1413
+)
+"src/Lexer.ml" 55 1432 1453 "src/Lexer.ml" 55 1432 1455
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( <= ) "pervasives.mli" 72 2999 2999 "pervasives.mli" 72 2999 3048
+)
+"src/Lexer.ml" 55 1432 1456 "src/Lexer.ml" 55 1432 1458
+type(
+  int
+)
+"src/Lexer.ml" 55 1432 1448 "src/Lexer.ml" 55 1432 1458
+type(
+  bool
+)
+"src/Lexer.ml" 55 1432 1434 "src/Lexer.ml" 55 1432 1458
+type(
+  bool
+)
+"src/Lexer.ml" 54 1403 1405 "src/Lexer.ml" 55 1432 1458
+type(
+  bool
+)
+type(
+  bool
+)
+"src/Lexer.ml" 58 1463 1467 "src/Lexer.ml" 58 1463 1475
+type(
+  char -> bool
+)
+ident(
+  def is_alpha "src/Lexer.ml" 64 1655 1655 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 58 1463 1477 "src/Lexer.ml" 58 1463 1479
+type(
+  char
+)
+ident(
+  def ch "src/Lexer.ml" 58 1463 1486 "src/Lexer.ml" 60 1524 1583
+)
+"src/Lexer.ml" 59 1495 1501 "src/Lexer.ml" 59 1495 1505
+type(
+  int
+)
+ident(
+  def code "src/Lexer.ml" 60 1524 1526 "src/Lexer.ml" 60 1524 1583
+)
+"src/Lexer.ml" 59 1495 1508 "src/Lexer.ml" 59 1495 1517
+type(
+  char -> int
+)
+ident(
+  int_ref Char.code "char.mli" 18 1109 1109 "char.mli" 18 1109 1150
+)
+"src/Lexer.ml" 59 1495 1518 "src/Lexer.ml" 59 1495 1520
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 58 1463 1477 "src/Lexer.ml" 58 1463 1479
+)
+"src/Lexer.ml" 59 1495 1508 "src/Lexer.ml" 59 1495 1520
+type(
+  int
+)
+"src/Lexer.ml" 60 1524 1527 "src/Lexer.ml" 60 1524 1531
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 59 1495 1501 "src/Lexer.ml" 59 1495 1505
+)
+"src/Lexer.ml" 60 1524 1532 "src/Lexer.ml" 60 1524 1534
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( >= ) "pervasives.mli" 76 3139 3139 "pervasives.mli" 76 3139 3191
+)
+"src/Lexer.ml" 60 1524 1535 "src/Lexer.ml" 60 1524 1537
+type(
+  int
+)
+"src/Lexer.ml" 60 1524 1527 "src/Lexer.ml" 60 1524 1537
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1538 "src/Lexer.ml" 60 1524 1540
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+)
+"src/Lexer.ml" 60 1524 1541 "src/Lexer.ml" 60 1524 1545
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 59 1495 1501 "src/Lexer.ml" 59 1495 1505
+)
+"src/Lexer.ml" 60 1524 1546 "src/Lexer.ml" 60 1524 1548
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( <= ) "pervasives.mli" 72 2999 2999 "pervasives.mli" 72 2999 3048
+)
+"src/Lexer.ml" 60 1524 1549 "src/Lexer.ml" 60 1524 1552
+type(
+  int
+)
+"src/Lexer.ml" 60 1524 1541 "src/Lexer.ml" 60 1524 1552
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1526 "src/Lexer.ml" 60 1524 1553
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1554 "src/Lexer.ml" 60 1524 1556
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( || ) "pervasives.mli" 148 6350 6350 "pervasives.mli" 148 6350 6400
+)
+"src/Lexer.ml" 60 1524 1558 "src/Lexer.ml" 60 1524 1562
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 59 1495 1501 "src/Lexer.ml" 59 1495 1505
+)
+"src/Lexer.ml" 60 1524 1563 "src/Lexer.ml" 60 1524 1565
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( <= ) "pervasives.mli" 72 2999 2999 "pervasives.mli" 72 2999 3048
+)
+"src/Lexer.ml" 60 1524 1566 "src/Lexer.ml" 60 1524 1568
+type(
+  int
+)
+"src/Lexer.ml" 60 1524 1558 "src/Lexer.ml" 60 1524 1568
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1569 "src/Lexer.ml" 60 1524 1571
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+)
+"src/Lexer.ml" 60 1524 1572 "src/Lexer.ml" 60 1524 1576
+type(
+  int
+)
+ident(
+  int_ref code "src/Lexer.ml" 59 1495 1501 "src/Lexer.ml" 59 1495 1505
+)
+"src/Lexer.ml" 60 1524 1577 "src/Lexer.ml" 60 1524 1579
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( <= ) "pervasives.mli" 72 2999 2999 "pervasives.mli" 72 2999 3048
+)
+"src/Lexer.ml" 60 1524 1580 "src/Lexer.ml" 60 1524 1582
+type(
+  int
+)
+"src/Lexer.ml" 60 1524 1572 "src/Lexer.ml" 60 1524 1582
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1557 "src/Lexer.ml" 60 1524 1583
+type(
+  bool
+)
+"src/Lexer.ml" 60 1524 1526 "src/Lexer.ml" 60 1524 1583
+type(
+  bool
+)
+"src/Lexer.ml" 59 1495 1497 "src/Lexer.ml" 60 1524 1583
+type(
+  bool
+)
+type(
+  bool
+)
+"src/Lexer.ml" 64 1655 1659 "src/Lexer.ml" 64 1655 1662
+type(
+  char Stream.t -> token list
+)
+ident(
+  def lex "src/Lexer.ml" 123 4139 4148 "src/Lexer.ml" 1 0 -1
+)
+"src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+type(
+  char Stream.t
+)
+ident(
+  def src "src/Lexer.ml" 64 1655 1683 "src/Lexer.ml" 123 4139 4148
+)
+"src/Lexer.ml" 65 1698 1708 "src/Lexer.ml" 65 1698 1715
+type(
+  string -> int
+)
+ident(
+  def lex_num "src/Lexer.ml" 65 1698 1700 "src/Lexer.ml" 123 4139 4148
+)
+"src/Lexer.ml" 65 1698 1716 "src/Lexer.ml" 65 1698 1719
+type(
+  string
+)
+ident(
+  def acc "src/Lexer.ml" 66 1722 1726 "src/Lexer.ml" 70 1836 1859
+)
+"src/Lexer.ml" 66 1722 1729 "src/Lexer.ml" 66 1722 1737
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "src/Lexer.ml" 53 1371 1375 "src/Lexer.ml" 53 1371 1383
+)
+"src/Lexer.ml" 66 1722 1739 "src/Lexer.ml" 66 1722 1743
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref peek "src/Lexer.ml" 34 820 824 "src/Lexer.ml" 34 820 828
+)
+"src/Lexer.ml" 66 1722 1744 "src/Lexer.ml" 66 1722 1747
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 66 1722 1738 "src/Lexer.ml" 66 1722 1748
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 66 1722 1729 "src/Lexer.ml" 66 1722 1748
+call(
+  stack
+)
+type(
+  bool
+)
+"src/Lexer.ml" 68 1776 1782 "src/Lexer.ml" 68 1776 1789
+type(
+  string -> int
+)
+ident(
+  int_ref lex_num "src/Lexer.ml" 65 1698 1708 "src/Lexer.ml" 65 1698 1715
+)
+"src/Lexer.ml" 68 1776 1791 "src/Lexer.ml" 68 1776 1794
+type(
+  string
+)
+ident(
+  int_ref acc "src/Lexer.ml" 65 1698 1716 "src/Lexer.ml" 65 1698 1719
+)
+"src/Lexer.ml" 68 1776 1795 "src/Lexer.ml" 68 1776 1796
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"src/Lexer.ml" 68 1776 1798 "src/Lexer.ml" 68 1776 1810
+type(
+  char -> string
+)
+ident(
+  int_ref Char.escaped "char.mli" 26 1363 1363 "char.mli" 26 1363 1391
+)
+"src/Lexer.ml" 68 1776 1812 "src/Lexer.ml" 68 1776 1819
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 68 1776 1820 "src/Lexer.ml" 68 1776 1823
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 68 1776 1811 "src/Lexer.ml" 68 1776 1824
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 68 1776 1797 "src/Lexer.ml" 68 1776 1825
+call(
+  stack
+)
+type(
+  string
+)
+"src/Lexer.ml" 68 1776 1790 "src/Lexer.ml" 68 1776 1826
+call(
+  stack
+)
+type(
+  string
+)
+"src/Lexer.ml" 68 1776 1782 "src/Lexer.ml" 68 1776 1826
+call(
+  tail
+)
+type(
+  int
+)
+"src/Lexer.ml" 70 1836 1842 "src/Lexer.ml" 70 1836 1855
+type(
+  string -> int
+)
+ident(
+  int_ref Pervasives.int_of_string "pervasives.mli" 624 23569 23569 "pervasives.mli" 624 23569 23630
+)
+"src/Lexer.ml" 70 1836 1856 "src/Lexer.ml" 70 1836 1859
+type(
+  string
+)
+ident(
+  int_ref acc "src/Lexer.ml" 65 1698 1716 "src/Lexer.ml" 65 1698 1719
+)
+"src/Lexer.ml" 70 1836 1842 "src/Lexer.ml" 70 1836 1859
+type(
+  int
+)
+"src/Lexer.ml" 66 1722 1726 "src/Lexer.ml" 70 1836 1859
+type(
+  int
+)
+"src/Lexer.ml" 72 1865 1875 "src/Lexer.ml" 72 1865 1885
+type(
+  string -> string
+)
+ident(
+  def lex_string "src/Lexer.ml" 72 1865 1867 "src/Lexer.ml" 123 4139 4148
+)
+"src/Lexer.ml" 72 1865 1886 "src/Lexer.ml" 72 1865 1889
+type(
+  string
+)
+ident(
+  def acc "src/Lexer.ml" 73 1892 1896 "src/Lexer.ml" 77 2009 2020
+)
+"src/Lexer.ml" 73 1892 1899 "src/Lexer.ml" 73 1892 1907
+type(
+  char -> bool
+)
+ident(
+  int_ref is_alpha "src/Lexer.ml" 58 1463 1467 "src/Lexer.ml" 58 1463 1475
+)
+"src/Lexer.ml" 73 1892 1909 "src/Lexer.ml" 73 1892 1913
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref peek "src/Lexer.ml" 34 820 824 "src/Lexer.ml" 34 820 828
+)
+"src/Lexer.ml" 73 1892 1914 "src/Lexer.ml" 73 1892 1917
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 73 1892 1908 "src/Lexer.ml" 73 1892 1918
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 73 1892 1899 "src/Lexer.ml" 73 1892 1918
+call(
+  stack
+)
+type(
+  bool
+)
+"src/Lexer.ml" 75 1946 1952 "src/Lexer.ml" 75 1946 1962
+type(
+  string -> string
+)
+ident(
+  int_ref lex_string "src/Lexer.ml" 72 1865 1875 "src/Lexer.ml" 72 1865 1885
+)
+"src/Lexer.ml" 75 1946 1964 "src/Lexer.ml" 75 1946 1967
+type(
+  string
+)
+ident(
+  int_ref acc "src/Lexer.ml" 72 1865 1886 "src/Lexer.ml" 72 1865 1889
+)
+"src/Lexer.ml" 75 1946 1968 "src/Lexer.ml" 75 1946 1969
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"src/Lexer.ml" 75 1946 1971 "src/Lexer.ml" 75 1946 1983
+type(
+  char -> string
+)
+ident(
+  int_ref Char.escaped "char.mli" 26 1363 1363 "char.mli" 26 1363 1391
+)
+"src/Lexer.ml" 75 1946 1985 "src/Lexer.ml" 75 1946 1992
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 75 1946 1993 "src/Lexer.ml" 75 1946 1996
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 75 1946 1984 "src/Lexer.ml" 75 1946 1997
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 75 1946 1970 "src/Lexer.ml" 75 1946 1998
+call(
+  stack
+)
+type(
+  string
+)
+"src/Lexer.ml" 75 1946 1963 "src/Lexer.ml" 75 1946 1999
+call(
+  stack
+)
+type(
+  string
+)
+"src/Lexer.ml" 75 1946 1952 "src/Lexer.ml" 75 1946 1999
+call(
+  tail
+)
+type(
+  string
+)
+"src/Lexer.ml" 77 2009 2017 "src/Lexer.ml" 77 2009 2020
+type(
+  string
+)
+ident(
+  int_ref acc "src/Lexer.ml" 72 1865 1886 "src/Lexer.ml" 72 1865 1889
+)
+"src/Lexer.ml" 73 1892 1896 "src/Lexer.ml" 77 2009 2020
+type(
+  string
+)
+"src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+type(
+  unit -> token list
+)
+ident(
+  def go "src/Lexer.ml" 79 2026 2026 "src/Lexer.ml" 123 4139 4148
+)
+"src/Lexer.ml" 79 2026 2037 "src/Lexer.ml" 79 2026 2039
+type(
+  unit
+)
+"src/Lexer.ml" 80 2042 2055 "src/Lexer.ml" 80 2042 2058
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/Lexer.ml" 80 2042 2060 "src/Lexer.ml" 80 2042 2068
+type(
+  char Stream.t -> bool
+)
+ident(
+  int_ref is_empty "src/Lexer.ml" 43 1156 1160 "src/Lexer.ml" 43 1156 1168
+)
+"src/Lexer.ml" 80 2042 2069 "src/Lexer.ml" 80 2042 2072
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 80 2042 2059 "src/Lexer.ml" 80 2042 2073
+call(
+  stack
+)
+type(
+  bool
+)
+"src/Lexer.ml" 80 2042 2055 "src/Lexer.ml" 80 2042 2073
+type(
+  bool
+)
+"src/Lexer.ml" 81 2079 2089 "src/Lexer.ml" 81 2079 2091
+type(
+  char
+)
+ident(
+  def ch "src/Lexer.ml" 86 2381 2387 "src/Lexer.ml" 118 4096 4107
+)
+"src/Lexer.ml" 81 2079 2094 "src/Lexer.ml" 81 2079 2098
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref peek "src/Lexer.ml" 34 820 824 "src/Lexer.ml" 34 820 828
+)
+"src/Lexer.ml" 81 2079 2099 "src/Lexer.ml" 81 2079 2102
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 81 2079 2094 "src/Lexer.ml" 81 2079 2102
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 86 2381 2393 "src/Lexer.ml" 86 2381 2395
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 81 2079 2089 "src/Lexer.ml" 81 2079 2091
+)
+"src/Lexer.ml" 87 2401 2409 "src/Lexer.ml" 87 2401 2412
+type(
+  char
+)
+"src/Lexer.ml" 87 2401 2416 "src/Lexer.ml" 87 2401 2423
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 87 2401 2424 "src/Lexer.ml" 87 2401 2427
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 87 2401 2416 "src/Lexer.ml" 87 2401 2427
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 87 2401 2428 "src/Lexer.ml" 87 2401 2430
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 87 2401 2431 "src/Lexer.ml" 87 2401 2437
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 87 2401 2416 "src/Lexer.ml" 87 2401 2437
+type(
+  unit
+)
+"src/Lexer.ml" 87 2401 2439 "src/Lexer.ml" 87 2401 2446
+type(
+  token
+)
+"src/Lexer.ml" 87 2401 2450 "src/Lexer.ml" 87 2401 2452
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 87 2401 2453 "src/Lexer.ml" 87 2401 2455
+type(
+  unit
+)
+"src/Lexer.ml" 87 2401 2450 "src/Lexer.ml" 87 2401 2455
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 87 2401 2439 "src/Lexer.ml" 87 2401 2455
+type(
+  token list
+)
+"src/Lexer.ml" 87 2401 2416 "src/Lexer.ml" 87 2401 2455
+type(
+  token list
+)
+"src/Lexer.ml" 88 2456 2464 "src/Lexer.ml" 88 2456 2467
+type(
+  char
+)
+"src/Lexer.ml" 88 2456 2471 "src/Lexer.ml" 88 2456 2478
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 88 2456 2479 "src/Lexer.ml" 88 2456 2482
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 88 2456 2471 "src/Lexer.ml" 88 2456 2482
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 88 2456 2483 "src/Lexer.ml" 88 2456 2485
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 88 2456 2486 "src/Lexer.ml" 88 2456 2492
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 88 2456 2471 "src/Lexer.ml" 88 2456 2492
+type(
+  unit
+)
+"src/Lexer.ml" 88 2456 2494 "src/Lexer.ml" 88 2456 2501
+type(
+  token
+)
+"src/Lexer.ml" 88 2456 2505 "src/Lexer.ml" 88 2456 2507
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 88 2456 2508 "src/Lexer.ml" 88 2456 2510
+type(
+  unit
+)
+"src/Lexer.ml" 88 2456 2505 "src/Lexer.ml" 88 2456 2510
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 88 2456 2494 "src/Lexer.ml" 88 2456 2510
+type(
+  token list
+)
+"src/Lexer.ml" 88 2456 2471 "src/Lexer.ml" 88 2456 2510
+type(
+  token list
+)
+"src/Lexer.ml" 89 2511 2519 "src/Lexer.ml" 89 2511 2522
+type(
+  char
+)
+"src/Lexer.ml" 89 2511 2526 "src/Lexer.ml" 89 2511 2533
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 89 2511 2534 "src/Lexer.ml" 89 2511 2537
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 89 2511 2526 "src/Lexer.ml" 89 2511 2537
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 89 2511 2538 "src/Lexer.ml" 89 2511 2540
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 89 2511 2541 "src/Lexer.ml" 89 2511 2547
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 89 2511 2526 "src/Lexer.ml" 89 2511 2547
+type(
+  unit
+)
+"src/Lexer.ml" 89 2511 2549 "src/Lexer.ml" 89 2511 2554
+type(
+  token
+)
+"src/Lexer.ml" 89 2511 2560 "src/Lexer.ml" 89 2511 2562
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 89 2511 2563 "src/Lexer.ml" 89 2511 2565
+type(
+  unit
+)
+"src/Lexer.ml" 89 2511 2560 "src/Lexer.ml" 89 2511 2565
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 89 2511 2549 "src/Lexer.ml" 89 2511 2565
+type(
+  token list
+)
+"src/Lexer.ml" 89 2511 2526 "src/Lexer.ml" 89 2511 2565
+type(
+  token list
+)
+"src/Lexer.ml" 90 2566 2574 "src/Lexer.ml" 90 2566 2577
+type(
+  char
+)
+"src/Lexer.ml" 90 2566 2581 "src/Lexer.ml" 90 2566 2588
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 90 2566 2589 "src/Lexer.ml" 90 2566 2592
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 90 2566 2581 "src/Lexer.ml" 90 2566 2592
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 90 2566 2593 "src/Lexer.ml" 90 2566 2595
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 90 2566 2596 "src/Lexer.ml" 90 2566 2602
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 90 2566 2581 "src/Lexer.ml" 90 2566 2602
+type(
+  unit
+)
+"src/Lexer.ml" 90 2566 2604 "src/Lexer.ml" 90 2566 2609
+type(
+  token
+)
+"src/Lexer.ml" 90 2566 2615 "src/Lexer.ml" 90 2566 2617
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 90 2566 2618 "src/Lexer.ml" 90 2566 2620
+type(
+  unit
+)
+"src/Lexer.ml" 90 2566 2615 "src/Lexer.ml" 90 2566 2620
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 90 2566 2604 "src/Lexer.ml" 90 2566 2620
+type(
+  token list
+)
+"src/Lexer.ml" 90 2566 2581 "src/Lexer.ml" 90 2566 2620
+type(
+  token list
+)
+"src/Lexer.ml" 91 2621 2629 "src/Lexer.ml" 91 2621 2632
+type(
+  char
+)
+"src/Lexer.ml" 91 2621 2636 "src/Lexer.ml" 91 2621 2643
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 91 2621 2644 "src/Lexer.ml" 91 2621 2647
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 91 2621 2636 "src/Lexer.ml" 91 2621 2647
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 91 2621 2648 "src/Lexer.ml" 91 2621 2650
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 91 2621 2651 "src/Lexer.ml" 91 2621 2657
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 91 2621 2636 "src/Lexer.ml" 91 2621 2657
+type(
+  unit
+)
+"src/Lexer.ml" 91 2621 2659 "src/Lexer.ml" 91 2621 2664
+type(
+  token
+)
+"src/Lexer.ml" 91 2621 2670 "src/Lexer.ml" 91 2621 2672
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 91 2621 2673 "src/Lexer.ml" 91 2621 2675
+type(
+  unit
+)
+"src/Lexer.ml" 91 2621 2670 "src/Lexer.ml" 91 2621 2675
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 91 2621 2659 "src/Lexer.ml" 91 2621 2675
+type(
+  token list
+)
+"src/Lexer.ml" 91 2621 2636 "src/Lexer.ml" 91 2621 2675
+type(
+  token list
+)
+"src/Lexer.ml" 92 2676 2684 "src/Lexer.ml" 92 2676 2687
+type(
+  char
+)
+"src/Lexer.ml" 92 2676 2691 "src/Lexer.ml" 92 2676 2698
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 92 2676 2699 "src/Lexer.ml" 92 2676 2702
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 92 2676 2691 "src/Lexer.ml" 92 2676 2702
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 92 2676 2703 "src/Lexer.ml" 92 2676 2705
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 92 2676 2706 "src/Lexer.ml" 92 2676 2712
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 92 2676 2691 "src/Lexer.ml" 92 2676 2712
+type(
+  unit
+)
+"src/Lexer.ml" 92 2676 2714 "src/Lexer.ml" 92 2676 2719
+type(
+  token
+)
+"src/Lexer.ml" 92 2676 2725 "src/Lexer.ml" 92 2676 2727
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 92 2676 2728 "src/Lexer.ml" 92 2676 2730
+type(
+  unit
+)
+"src/Lexer.ml" 92 2676 2725 "src/Lexer.ml" 92 2676 2730
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 92 2676 2714 "src/Lexer.ml" 92 2676 2730
+type(
+  token list
+)
+"src/Lexer.ml" 92 2676 2691 "src/Lexer.ml" 92 2676 2730
+type(
+  token list
+)
+"src/Lexer.ml" 93 2731 2739 "src/Lexer.ml" 93 2731 2742
+type(
+  char
+)
+"src/Lexer.ml" 93 2731 2746 "src/Lexer.ml" 93 2731 2753
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 93 2731 2754 "src/Lexer.ml" 93 2731 2757
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 93 2731 2746 "src/Lexer.ml" 93 2731 2757
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 93 2731 2758 "src/Lexer.ml" 93 2731 2760
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 93 2731 2761 "src/Lexer.ml" 93 2731 2767
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 93 2731 2746 "src/Lexer.ml" 93 2731 2767
+type(
+  unit
+)
+"src/Lexer.ml" 93 2731 2773 "src/Lexer.ml" 93 2731 2780
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 93 2731 2781 "src/Lexer.ml" 93 2731 2784
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 93 2731 2773 "src/Lexer.ml" 93 2731 2784
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 93 2731 2785 "src/Lexer.ml" 93 2731 2786
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 93 2731 2787 "src/Lexer.ml" 93 2731 2790
+type(
+  char
+)
+"src/Lexer.ml" 93 2731 2772 "src/Lexer.ml" 93 2731 2791
+type(
+  bool
+)
+"src/Lexer.ml" 94 2797 2830 "src/Lexer.ml" 94 2797 2837
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 94 2797 2838 "src/Lexer.ml" 94 2797 2841
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 94 2797 2830 "src/Lexer.ml" 94 2797 2841
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 94 2797 2842 "src/Lexer.ml" 94 2797 2843
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 94 2797 2844 "src/Lexer.ml" 94 2797 2847
+type(
+  char
+)
+"src/Lexer.ml" 94 2797 2829 "src/Lexer.ml" 94 2797 2848
+type(
+  bool
+)
+"src/Lexer.ml" 95 2854 2868 "src/Lexer.ml" 95 2854 2875
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 95 2854 2876 "src/Lexer.ml" 95 2854 2879
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 95 2854 2868 "src/Lexer.ml" 95 2854 2879
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 95 2854 2880 "src/Lexer.ml" 95 2854 2881
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 95 2854 2882 "src/Lexer.ml" 95 2854 2885
+type(
+  char
+)
+"src/Lexer.ml" 95 2854 2867 "src/Lexer.ml" 95 2854 2886
+type(
+  bool
+)
+"src/Lexer.ml" 95 2854 2892 "src/Lexer.ml" 95 2854 2897
+type(
+  token
+)
+"src/Lexer.ml" 95 2854 2901 "src/Lexer.ml" 95 2854 2903
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 95 2854 2904 "src/Lexer.ml" 95 2854 2906
+type(
+  unit
+)
+"src/Lexer.ml" 95 2854 2901 "src/Lexer.ml" 95 2854 2906
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 95 2854 2892 "src/Lexer.ml" 95 2854 2906
+type(
+  token list
+)
+"src/Lexer.ml" 96 2907 2924 "src/Lexer.ml" 96 2907 2932
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 96 2907 2933 "src/Lexer.ml" 96 2907 2945
+type(
+  string
+)
+"src/Lexer.ml" 96 2907 2924 "src/Lexer.ml" 96 2907 2945
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 95 2854 2864 "src/Lexer.ml" 96 2907 2945
+type(
+  token list
+)
+"src/Lexer.ml" 97 2946 2959 "src/Lexer.ml" 97 2946 2967
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 97 2946 2968 "src/Lexer.ml" 97 2946 2980
+type(
+  string
+)
+"src/Lexer.ml" 97 2946 2959 "src/Lexer.ml" 97 2946 2980
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 94 2797 2826 "src/Lexer.ml" 97 2946 2980
+type(
+  token list
+)
+"src/Lexer.ml" 98 2981 2992 "src/Lexer.ml" 98 2981 3000
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 98 2981 3001 "src/Lexer.ml" 98 2981 3013
+type(
+  string
+)
+"src/Lexer.ml" 98 2981 2992 "src/Lexer.ml" 98 2981 3013
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 93 2731 2769 "src/Lexer.ml" 98 2981 3013
+type(
+  token list
+)
+"src/Lexer.ml" 93 2731 2746 "src/Lexer.ml" 98 2981 3013
+type(
+  token list
+)
+"src/Lexer.ml" 99 3014 3022 "src/Lexer.ml" 99 3014 3025
+type(
+  char
+)
+"src/Lexer.ml" 99 3014 3029 "src/Lexer.ml" 99 3014 3036
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 99 3014 3037 "src/Lexer.ml" 99 3014 3040
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 99 3014 3029 "src/Lexer.ml" 99 3014 3040
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 99 3014 3041 "src/Lexer.ml" 99 3014 3043
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 99 3014 3044 "src/Lexer.ml" 99 3014 3050
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 99 3014 3029 "src/Lexer.ml" 99 3014 3050
+type(
+  unit
+)
+"src/Lexer.ml" 99 3014 3056 "src/Lexer.ml" 99 3014 3063
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 99 3014 3064 "src/Lexer.ml" 99 3014 3067
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 99 3014 3056 "src/Lexer.ml" 99 3014 3067
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 99 3014 3068 "src/Lexer.ml" 99 3014 3069
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 99 3014 3070 "src/Lexer.ml" 99 3014 3073
+type(
+  char
+)
+"src/Lexer.ml" 99 3014 3056 "src/Lexer.ml" 99 3014 3073
+type(
+  bool
+)
+"src/Lexer.ml" 100 3079 3112 "src/Lexer.ml" 100 3079 3119
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 100 3079 3120 "src/Lexer.ml" 100 3079 3123
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 100 3079 3112 "src/Lexer.ml" 100 3079 3123
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 100 3079 3124 "src/Lexer.ml" 100 3079 3125
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 100 3079 3126 "src/Lexer.ml" 100 3079 3129
+type(
+  char
+)
+"src/Lexer.ml" 100 3079 3112 "src/Lexer.ml" 100 3079 3129
+type(
+  bool
+)
+"src/Lexer.ml" 101 3136 3171 "src/Lexer.ml" 101 3136 3178
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 101 3136 3179 "src/Lexer.ml" 101 3136 3182
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 101 3136 3171 "src/Lexer.ml" 101 3136 3182
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 101 3136 3183 "src/Lexer.ml" 101 3136 3184
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 101 3136 3185 "src/Lexer.ml" 101 3136 3188
+type(
+  char
+)
+"src/Lexer.ml" 101 3136 3171 "src/Lexer.ml" 101 3136 3188
+type(
+  bool
+)
+"src/Lexer.ml" 102 3195 3232 "src/Lexer.ml" 102 3195 3239
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 102 3195 3240 "src/Lexer.ml" 102 3195 3243
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 102 3195 3232 "src/Lexer.ml" 102 3195 3243
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 102 3195 3244 "src/Lexer.ml" 102 3195 3245
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 102 3195 3246 "src/Lexer.ml" 102 3195 3249
+type(
+  char
+)
+"src/Lexer.ml" 102 3195 3232 "src/Lexer.ml" 102 3195 3249
+type(
+  bool
+)
+"src/Lexer.ml" 102 3195 3255 "src/Lexer.ml" 102 3195 3261
+type(
+  token
+)
+"src/Lexer.ml" 102 3195 3265 "src/Lexer.ml" 102 3195 3267
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 102 3195 3268 "src/Lexer.ml" 102 3195 3270
+type(
+  unit
+)
+"src/Lexer.ml" 102 3195 3265 "src/Lexer.ml" 102 3195 3270
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 102 3195 3255 "src/Lexer.ml" 102 3195 3270
+type(
+  token list
+)
+"src/Lexer.ml" 103 3271 3310 "src/Lexer.ml" 103 3271 3318
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 103 3271 3319 "src/Lexer.ml" 103 3271 3333
+type(
+  string
+)
+"src/Lexer.ml" 103 3271 3310 "src/Lexer.ml" 103 3271 3333
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 102 3195 3228 "src/Lexer.ml" 103 3271 3334
+type(
+  token list
+)
+"src/Lexer.ml" 104 3335 3372 "src/Lexer.ml" 104 3335 3380
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 104 3335 3381 "src/Lexer.ml" 104 3335 3395
+type(
+  string
+)
+"src/Lexer.ml" 104 3335 3372 "src/Lexer.ml" 104 3335 3395
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 101 3136 3167 "src/Lexer.ml" 104 3335 3396
+type(
+  token list
+)
+"src/Lexer.ml" 105 3397 3432 "src/Lexer.ml" 105 3397 3440
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 105 3397 3441 "src/Lexer.ml" 105 3397 3455
+type(
+  string
+)
+"src/Lexer.ml" 105 3397 3432 "src/Lexer.ml" 105 3397 3455
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 100 3079 3108 "src/Lexer.ml" 105 3397 3456
+type(
+  token list
+)
+"src/Lexer.ml" 106 3457 3490 "src/Lexer.ml" 106 3457 3498
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 106 3457 3499 "src/Lexer.ml" 106 3457 3513
+type(
+  string
+)
+"src/Lexer.ml" 106 3457 3490 "src/Lexer.ml" 106 3457 3513
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 99 3014 3052 "src/Lexer.ml" 106 3457 3514
+type(
+  token list
+)
+"src/Lexer.ml" 99 3014 3029 "src/Lexer.ml" 106 3457 3514
+type(
+  token list
+)
+"src/Lexer.ml" 107 3515 3523 "src/Lexer.ml" 107 3515 3526
+type(
+  char
+)
+"src/Lexer.ml" 107 3515 3530 "src/Lexer.ml" 107 3515 3537
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 107 3515 3538 "src/Lexer.ml" 107 3515 3541
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 107 3515 3530 "src/Lexer.ml" 107 3515 3541
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 107 3515 3542 "src/Lexer.ml" 107 3515 3544
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 107 3515 3545 "src/Lexer.ml" 107 3515 3551
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 107 3515 3530 "src/Lexer.ml" 107 3515 3551
+type(
+  unit
+)
+"src/Lexer.ml" 107 3515 3557 "src/Lexer.ml" 107 3515 3564
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 107 3515 3565 "src/Lexer.ml" 107 3515 3568
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 107 3515 3557 "src/Lexer.ml" 107 3515 3568
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 107 3515 3569 "src/Lexer.ml" 107 3515 3570
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 107 3515 3571 "src/Lexer.ml" 107 3515 3574
+type(
+  char
+)
+"src/Lexer.ml" 107 3515 3556 "src/Lexer.ml" 107 3515 3575
+type(
+  bool
+)
+"src/Lexer.ml" 107 3515 3581 "src/Lexer.ml" 107 3515 3598
+type(
+  token
+)
+"src/Lexer.ml" 107 3515 3602 "src/Lexer.ml" 107 3515 3604
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 107 3515 3605 "src/Lexer.ml" 107 3515 3607
+type(
+  unit
+)
+"src/Lexer.ml" 107 3515 3602 "src/Lexer.ml" 107 3515 3607
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 107 3515 3581 "src/Lexer.ml" 107 3515 3607
+type(
+  token list
+)
+"src/Lexer.ml" 107 3515 3613 "src/Lexer.ml" 107 3515 3621
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 107 3515 3622 "src/Lexer.ml" 107 3515 3655
+type(
+  string
+)
+"src/Lexer.ml" 107 3515 3613 "src/Lexer.ml" 107 3515 3655
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 107 3515 3553 "src/Lexer.ml" 107 3515 3655
+type(
+  token list
+)
+"src/Lexer.ml" 107 3515 3530 "src/Lexer.ml" 107 3515 3655
+type(
+  token list
+)
+"src/Lexer.ml" 108 3656 3664 "src/Lexer.ml" 108 3656 3667
+type(
+  char
+)
+"src/Lexer.ml" 108 3656 3671 "src/Lexer.ml" 108 3656 3678
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 108 3656 3679 "src/Lexer.ml" 108 3656 3682
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 108 3656 3671 "src/Lexer.ml" 108 3656 3682
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 108 3656 3683 "src/Lexer.ml" 108 3656 3685
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 108 3656 3686 "src/Lexer.ml" 108 3656 3692
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 108 3656 3671 "src/Lexer.ml" 108 3656 3692
+type(
+  unit
+)
+"src/Lexer.ml" 108 3656 3698 "src/Lexer.ml" 108 3656 3705
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 108 3656 3706 "src/Lexer.ml" 108 3656 3709
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 108 3656 3698 "src/Lexer.ml" 108 3656 3709
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 108 3656 3710 "src/Lexer.ml" 108 3656 3711
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+)
+"src/Lexer.ml" 108 3656 3712 "src/Lexer.ml" 108 3656 3715
+type(
+  char
+)
+"src/Lexer.ml" 108 3656 3697 "src/Lexer.ml" 108 3656 3716
+type(
+  bool
+)
+"src/Lexer.ml" 108 3656 3722 "src/Lexer.ml" 108 3656 3725
+type(
+  token
+)
+"src/Lexer.ml" 108 3656 3743 "src/Lexer.ml" 108 3656 3745
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 108 3656 3745 "src/Lexer.ml" 108 3656 3747
+type(
+  unit
+)
+"src/Lexer.ml" 108 3656 3743 "src/Lexer.ml" 108 3656 3747
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 108 3656 3722 "src/Lexer.ml" 108 3656 3747
+type(
+  token list
+)
+"src/Lexer.ml" 108 3656 3753 "src/Lexer.ml" 108 3656 3761
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 108 3656 3762 "src/Lexer.ml" 108 3656 3781
+type(
+  string
+)
+"src/Lexer.ml" 108 3656 3753 "src/Lexer.ml" 108 3656 3781
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 108 3656 3694 "src/Lexer.ml" 108 3656 3781
+type(
+  token list
+)
+"src/Lexer.ml" 108 3656 3671 "src/Lexer.ml" 108 3656 3781
+type(
+  token list
+)
+"src/Lexer.ml" 109 3782 3790 "src/Lexer.ml" 109 3782 3791
+type(
+  char
+)
+"src/Lexer.ml" 110 3797 3814 "src/Lexer.ml" 110 3797 3827
+type(
+  char -> bool
+)
+ident(
+  int_ref is_whitespace "src/Lexer.ml" 49 1267 1271 "src/Lexer.ml" 49 1267 1284
+)
+"src/Lexer.ml" 110 3797 3828 "src/Lexer.ml" 110 3797 3830
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 81 2079 2089 "src/Lexer.ml" 81 2079 2091
+)
+"src/Lexer.ml" 110 3797 3814 "src/Lexer.ml" 110 3797 3830
+call(
+  stack
+)
+type(
+  bool
+)
+"src/Lexer.ml" 112 3871 3887 "src/Lexer.ml" 112 3871 3894
+type(
+  char Stream.t -> char
+)
+ident(
+  int_ref advance "src/Lexer.ml" 40 1046 1050 "src/Lexer.ml" 40 1046 1057
+)
+"src/Lexer.ml" 112 3871 3895 "src/Lexer.ml" 112 3871 3898
+type(
+  char Stream.t
+)
+ident(
+  int_ref src "src/Lexer.ml" 64 1655 1664 "src/Lexer.ml" 64 1655 1667
+)
+"src/Lexer.ml" 112 3871 3887 "src/Lexer.ml" 112 3871 3898
+call(
+  stack
+)
+type(
+  char
+)
+"src/Lexer.ml" 112 3871 3899 "src/Lexer.ml" 112 3871 3901
+type(
+  char -> (char -> unit) -> unit
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Lexer.ml" 112 3871 3902 "src/Lexer.ml" 112 3871 3908
+type(
+  char -> unit
+)
+ident(
+  int_ref Pervasives.ignore "pervasives.mli" 593 22565 22565 "pervasives.mli" 593 22565 22605
+)
+"src/Lexer.ml" 112 3871 3887 "src/Lexer.ml" 112 3871 3908
+type(
+  unit
+)
+"src/Lexer.ml" 112 3871 3910 "src/Lexer.ml" 112 3871 3912
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 112 3871 3913 "src/Lexer.ml" 112 3871 3915
+type(
+  unit
+)
+"src/Lexer.ml" 112 3871 3910 "src/Lexer.ml" 112 3871 3915
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 112 3871 3881 "src/Lexer.ml" 112 3871 3919
+type(
+  token list
+)
+"src/Lexer.ml" 113 3920 3936 "src/Lexer.ml" 113 3920 3944
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "src/Lexer.ml" 53 1371 1375 "src/Lexer.ml" 53 1371 1383
+)
+"src/Lexer.ml" 113 3920 3945 "src/Lexer.ml" 113 3920 3947
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 81 2079 2089 "src/Lexer.ml" 81 2079 2091
+)
+"src/Lexer.ml" 113 3920 3936 "src/Lexer.ml" 113 3920 3947
+call(
+  stack
+)
+type(
+  bool
+)
+"src/Lexer.ml" 114 3953 3967 "src/Lexer.ml" 114 3953 3968
+type(
+  int
+)
+ident(
+  def n "src/Lexer.ml" 115 3985 3995 "src/Lexer.ml" 115 3985 4010
+)
+"src/Lexer.ml" 114 3953 3971 "src/Lexer.ml" 114 3953 3978
+type(
+  string -> int
+)
+ident(
+  int_ref lex_num "src/Lexer.ml" 65 1698 1708 "src/Lexer.ml" 65 1698 1715
+)
+"src/Lexer.ml" 114 3953 3979 "src/Lexer.ml" 114 3953 3981
+type(
+  string
+)
+"src/Lexer.ml" 114 3953 3971 "src/Lexer.ml" 114 3953 3981
+call(
+  stack
+)
+type(
+  int
+)
+"src/Lexer.ml" 115 3985 4000 "src/Lexer.ml" 115 3985 4001
+type(
+  int
+)
+ident(
+  int_ref n "src/Lexer.ml" 114 3953 3967 "src/Lexer.ml" 114 3953 3968
+)
+"src/Lexer.ml" 115 3985 3995 "src/Lexer.ml" 115 3985 4001
+type(
+  token
+)
+"src/Lexer.ml" 115 3985 4005 "src/Lexer.ml" 115 3985 4007
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 115 3985 4008 "src/Lexer.ml" 115 3985 4010
+type(
+  unit
+)
+"src/Lexer.ml" 115 3985 4005 "src/Lexer.ml" 115 3985 4010
+call(
+  stack
+)
+type(
+  token list
+)
+"src/Lexer.ml" 115 3985 3995 "src/Lexer.ml" 115 3985 4010
+type(
+  token list
+)
+"src/Lexer.ml" 114 3953 3963 "src/Lexer.ml" 115 3985 4010
+type(
+  token list
+)
+"src/Lexer.ml" 117 4024 4034 "src/Lexer.ml" 117 4024 4042
+type(
+  string -> token list
+)
+ident(
+  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+)
+"src/Lexer.ml" 117 4024 4044 "src/Lexer.ml" 117 4024 4058
+type(
+  (char -> string, unit, string) format -> char -> string
+)
+ident(
+  int_ref Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"src/Lexer.ml" 117 4024 4059 "src/Lexer.ml" 117 4024 4091
+type(
+  (char -> string, unit, string) format
+)
+"src/Lexer.ml" 117 4024 4092 "src/Lexer.ml" 117 4024 4094
+type(
+  char
+)
+ident(
+  int_ref ch "src/Lexer.ml" 81 2079 2089 "src/Lexer.ml" 81 2079 2091
+)
+"src/Lexer.ml" 117 4024 4043 "src/Lexer.ml" 117 4024 4095
+call(
+  stack
+)
+type(
+  string
+)
+"src/Lexer.ml" 117 4024 4034 "src/Lexer.ml" 117 4024 4095
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 113 3920 3933 "src/Lexer.ml" 117 4024 4095
+type(
+  token list
+)
+"src/Lexer.ml" 110 3797 3805 "src/Lexer.ml" 118 4096 4107
+type(
+  token list
+)
+"src/Lexer.ml" 86 2381 2387 "src/Lexer.ml" 118 4096 4107
+type(
+  token list
+)
+"src/Lexer.ml" 81 2079 2085 "src/Lexer.ml" 118 4096 4107
+type(
+  token list
+)
+"src/Lexer.ml" 120 4117 4123 "src/Lexer.ml" 120 4117 4125
+type(
+  token list
+)
+"src/Lexer.ml" 80 2042 2046 "src/Lexer.ml" 121 4126 4133
+type(
+  token list
+)
+"src/Lexer.ml" 123 4139 4143 "src/Lexer.ml" 123 4139 4145
+type(
+  unit -> token list
+)
+ident(
+  int_ref go "src/Lexer.ml" 79 2026 2034 "src/Lexer.ml" 79 2026 2036
+)
+"src/Lexer.ml" 123 4139 4146 "src/Lexer.ml" 123 4139 4148
+type(
+  unit
+)
+"src/Lexer.ml" 123 4139 4143 "src/Lexer.ml" 123 4139 4148
+call(
+  tail
+)
+type(
+  token list
+)
+"src/Lexer.ml" 79 2026 2026 "src/Lexer.ml" 123 4139 4148
+type(
+  token list
+)
+"src/Lexer.ml" 72 1865 1867 "src/Lexer.ml" 123 4139 4148
+type(
+  token list
+)
+"src/Lexer.ml" 65 1698 1700 "src/Lexer.ml" 123 4139 4148
+type(
+  token list
+)
+type(
+  token list
+)
