@@ -1,0 +1,94 @@
+### Starting build.
+# Target: src/Compiler.ml.depends, tags: { extension:ml, file:src/Compiler.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Compiler.ml > src/Compiler.ml.depends
+# Target: src/Lang.ml.depends, tags: { extension:ml, file:src/Lang.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Lang.ml > src/Lang.ml.depends
+# Target: src/Lexer.mll, tags: { extension:mll, file:src/Lexer.mll, lexer, ocaml, ocamllex, quiet, traverse }
+ocamllex.opt -q src/Lexer.mll
+# Target: src/Lexer.ml.depends, tags: { extension:ml, file:src/Lexer.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Lexer.ml > src/Lexer.ml.depends # cached
+# Target: src/Parser.mly.depends, tags: { extension:mly, file:src/Parser.mly, infer, menhir_ocamldep, ocaml, ocamldep, quiet, traverse }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/Parser.mly > src/Parser.mly.depends
++ menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/Parser.mly > src/Parser.mly.depends
+File "src/Parser.mly", line 23, characters 7-10:
+Warning: the token FIX is unused.
+# Target: src/Lang.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Lang.cmo, file:src/Lang.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Lang.cmo src/Lang.ml
++ ocamlfind ocamlc -c -annot -g -I src -o src/Lang.cmo src/Lang.ml
+File "src/Lang.ml", line 71, characters 2-1581:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(EFun (_, _)|EFunCall (_, _))
+File "src/Lang.ml", line 110, characters 2-2090:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(EVar _|EAdd (_, _)|ESubt (_, _)|EMult (_, _)|EDivd (_, _)|EAnd (_, _)|
+ENand (_, _)|EOr (_, _)|ENor (_, _)|EXor (_, _)|ENXor (_, _)|ENot _)
+File "src/Lang.ml", line 125, characters 51-53:
+Warning 26: unused variable v2.
+File "src/Lang.ml", line 130, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 131, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 132, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 133, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 134, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 135, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 136, characters 4-14:
+Warning 11: this match case is unused.
+# Target: src/Parser.mly, tags: { byte, compile, extension:ml, extension:mly, file:src/Parser.ml, file:src/Parser.mly, infer, menhir, ocaml, parser, quiet, traverse }
+menhir --ocamlc 'ocamlfind ocamlc -annot -g -I src' --infer src/Parser.mly
++ menhir --ocamlc 'ocamlfind ocamlc -annot -g -I src' --infer src/Parser.mly
+File "src/Parser.mly", line 23, characters 7-10:
+Warning: the token FIX is unused.
+# Target: src/Parser.mli.depends, tags: { extension:mli, file:src/Parser.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Parser.mli > src/Parser.mli.depends # cached
+# Target: src/Parser.cmi, tags: { byte, compile, extension:mli, file:src/Parser.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Parser.cmi src/Parser.mli
+# Target: src/Lexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Lexer.cmo, file:src/Lexer.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Lexer.cmo src/Lexer.ml
+# Target: src/Compiler.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/Compiler.cmo, file:src/Compiler.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -g -I src -o src/Compiler.cmo src/Compiler.ml
+# Target: src/Parser.ml.depends, tags: { extension:ml, file:src/Parser.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/Parser.ml > src/Parser.ml.depends # cached
+# Target: src/Lang.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Lang.cmx, file:src/Lang.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Lang.cmx src/Lang.ml
++ ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Lang.cmx src/Lang.ml
+File "src/Lang.ml", line 71, characters 2-1581:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(EFun (_, _)|EFunCall (_, _))
+File "src/Lang.ml", line 110, characters 2-2090:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(EVar _|EAdd (_, _)|ESubt (_, _)|EMult (_, _)|EDivd (_, _)|EAnd (_, _)|
+ENand (_, _)|EOr (_, _)|ENor (_, _)|EXor (_, _)|ENXor (_, _)|ENot _)
+File "src/Lang.ml", line 125, characters 51-53:
+Warning 26: unused variable v2.
+File "src/Lang.ml", line 130, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 131, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 132, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 133, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 134, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 135, characters 4-18:
+Warning 11: this match case is unused.
+File "src/Lang.ml", line 136, characters 4-14:
+Warning 11: this match case is unused.
+# Target: src/Parser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Parser.cmx, file:src/Parser.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Parser.cmx src/Parser.ml
+# Target: src/Lexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Lexer.cmx, file:src/Lexer.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Lexer.cmx src/Lexer.ml
+# Target: src/Compiler.cmx, tags: { compile, extension:cmx, extension:ml, file:src/Compiler.cmx, file:src/Compiler.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -g -inline 20 -I src -o src/Compiler.cmx src/Compiler.ml
+# Target: src/Compiler.native, tags: { dont_link_with, extension:native, file:src/Compiler.native, link, native, ocaml, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -I src src/Lang.cmx src/Parser.cmx src/Lexer.cmx src/Compiler.cmx -o src/Compiler.native
+# Compilation successful.

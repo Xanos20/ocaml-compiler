@@ -1,0 +1,142 @@
+"src/Compiler.ml" 1 0 4 "src/Compiler.ml" 1 0 8
+type(
+  unit -> string
+)
+ident(
+  def main "src/Compiler.ml" 15 325 350 "src/Compiler.ml" 1 0 -1
+)
+"src/Compiler.ml" 1 0 9 "src/Compiler.ml" 1 0 11
+type(
+  unit
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 10 212 223
+type(
+  string array
+)
+ident(
+  int_ref Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+)
+"src/Compiler.ml" 10 212 225 "src/Compiler.ml" 10 212 226
+type(
+  int
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 10 212 227
+type(
+  string
+)
+"src/Compiler.ml" 11 228 232 "src/Compiler.ml" 11 228 234
+type(
+  string -> (string -> in_channel) -> in_channel
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 11 228 235 "src/Compiler.ml" 11 228 242
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Pervasives.open_in "pervasives.mli" 924 35020 35020 "pervasives.mli" 924 35020 35054
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 11 228 242
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/Compiler.ml" 12 243 247 "src/Compiler.ml" 12 243 249
+type(
+  in_channel -> (in_channel -> Lexing.lexbuf) -> Lexing.lexbuf
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 12 243 250 "src/Compiler.ml" 12 243 269
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  int_ref Lexing.from_channel "lexing.mli" 78 3247 3247 "lexing.mli" 78 3247 3286
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 12 243 269
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/Compiler.ml" 13 270 274 "src/Compiler.ml" 13 270 276
+type(
+  Lexing.lexbuf -> (Lexing.lexbuf -> Lang.exp) -> Lang.exp
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 13 270 277 "src/Compiler.ml" 13 270 288
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Lang.exp
+)
+ident(
+  int_ref Parser.prog "src/Parser.mli" 39 427 427 "src/Parser.mli" 39 427 492
+)
+"src/Compiler.ml" 13 270 289 "src/Compiler.ml" 13 270 300
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref Lexer.token "src/Lexer.ml" 186 8815 8823 "src/Lexer.ml" 186 8815 8828
+)
+"src/Compiler.ml" 13 270 277 "src/Compiler.ml" 13 270 300
+type(
+  Lexing.lexbuf -> Lang.exp
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 13 270 300
+call(
+  stack
+)
+type(
+  Lang.exp
+)
+"src/Compiler.ml" 14 301 305 "src/Compiler.ml" 14 301 307
+type(
+  Lang.exp -> (Lang.exp -> Lang.exp) -> Lang.exp
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 14 301 308 "src/Compiler.ml" 14 301 322
+type(
+  Lang.exp -> Lang.exp
+)
+ident(
+  int_ref Lang.interpret "src/Lang.ml" 108 4689 4697 "src/Lang.ml" 108 4689 4706
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 14 301 322
+call(
+  stack
+)
+type(
+  Lang.exp
+)
+"src/Compiler.ml" 15 325 329 "src/Compiler.ml" 15 325 331
+type(
+  Lang.exp -> (Lang.exp -> string) -> string
+)
+ident(
+  int_ref Pervasives.( |> ) "pervasives.mli" 223 9124 9124 "pervasives.mli" 223 9124 9178
+)
+"src/Compiler.ml" 15 325 332 "src/Compiler.ml" 15 325 350
+type(
+  Lang.exp -> string
+)
+ident(
+  int_ref Lang.exp_to_string "src/Lang.ml" 55 2402 2410 "src/Lang.ml" 55 2402 2423
+)
+"src/Compiler.ml" 10 212 215 "src/Compiler.ml" 15 325 350
+call(
+  tail
+)
+type(
+  string
+)
