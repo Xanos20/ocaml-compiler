@@ -100,10 +100,7 @@ let is_int (e:exp) : bool =
 
 
 
-type val:
-      | VInt of int
-      | VBool of bool
-      | VFun of string * exp
+
   
 
               
